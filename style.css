@@ -40,9 +40,9 @@ body * {
   font-family: "Inter", serif;
   color: var(--text-color);
 
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  font-style: normal; */
 }
 
 #container {
@@ -50,7 +50,7 @@ body * {
   width: 100%;
   max-width: 588px;
   margin: 56px auto 0px; /* CIMA, DIREITA E BAIXO */
-  padding: 0 20px;
+  padding: 0 24px;
 }
 
 /* #profile img {
@@ -125,7 +125,6 @@ ul {
 }
 
 ul li a {
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,12 +181,12 @@ footer {
 }
 
 /* MEDIA QUERYS */
-@media (min-width: 700px){
+@media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg)
+    --bg-url: url(./assets/bg-desktop.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg)
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
